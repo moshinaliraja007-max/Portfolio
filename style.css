@@ -22,6 +22,7 @@ body {
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
   position: sticky;
   top: 0;
+  z-index: 1000;
 }
 img {
     width: 40px;
@@ -163,4 +164,16 @@ img {
   padding: 40px;
   font-size: 20px;
   font-weight: 600;
+}
+
+#home,
+#projects,
+#about,
+#contact {
+    scroll-margin-top: 80px;
+    /* navbar height */
+}
+
+html {
+    scroll-behavior: smooth;
 }
